@@ -81,3 +81,99 @@ header{
   background-size: 20px 20px;
 }
 
+
+
+/* aba lateral - recentes e mais lidos */
+
+.barLateral {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  width: 100%;
+}
+
+.recentes {
+    background-color: #3E3A39;
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 240px;
+    margin-top: 160px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.maisLidosHoje {
+    background-color: #3E3A39;
+    border: 1px solid #aaa;
+    height: 400px;
+    width: 240px;
+    margin-top: 15px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.recentes h2,
+.maisLidosHoje h2 {
+    font-family:sans-serif;
+    color: #CF7764;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.recentes ul,
+.maisLidosHoje ol {
+    color: #f2f2f2;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recentes li,
+.maisLidosHoje li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.recentes li p,
+.maisLidosHoje li p {
+    font-size: 15px;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recentes li img,
+.maisLidosHoje li img {
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.botao {
+    margin-left: 10px;
+    align-self: flex-start;
+    background-color: #3E3A39;
+    color: #f2f2f2;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+    transition: all 0.2s;
+}
+
+.botao:hover{
+    background-color: #2B2827;
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+/*  RESPONSIVIDADE  */
+
+@media(min-width:1441px){
+    header{
+        width: 3000px;
+    }
+}
