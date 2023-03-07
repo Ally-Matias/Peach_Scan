@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <script src="javascript/bannerSlider.js"></script>
 </head>
 <body>
     <header>
@@ -41,18 +40,18 @@
 
     <main>
         <section class="banner-carousel">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
-            space-between="30" free-mode="true">
-            <swiper-slide><img src="assets/css/img/solo.png"> </swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-          </swiper-container>
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3" space-between="30"
+                free-mode="true">
+                <swiper-slide><img src="assets/css/img/solo.png"> </swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
+            </swiper-container>
         
         
           <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>             
@@ -63,7 +62,7 @@
             <div class="main-section-first">
                 <header class="main-section-first-header">
                         <div>
-                            <h2 class="titulo-lista"><span>Principais Mangás </span></h2>
+                            <h2 class="titulo-lista"><span>Principais Obras </span></h2>
                             <section>
                                 <ul class=" slider">
                                     <li>
@@ -292,47 +291,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <script>
-      $(document).ready(function () {
-            $('.slider').slick({
-                slidesToShow: 5,
-                slidesToScroll: 2,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                arrows: true,
-                prevArrow: $('.slick-prev'),
-                nextArrow: $('.slick-next'),
-                dots: false,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 2
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1
-                        }
-                    }
-                ]
-            });
-        });
-    </script>
-    <script>
-        let botoes = document.querySelectorAll('.botao');
-
-            botoes.forEach(botao => {
-                botao.addEventListener('click', () => {
-                    // Remove a classe 'botao-selecionado' de todos os botões
-                    botoes.forEach(b => {
-                        b.classList.remove('botao-selecionado');
-                    });
-                    // Adiciona a classe 'botao-selecionado' ao botão selecionado
-                    botao.classList.add('botao-selecionado');
-                });
-            });
-    </script>
+    <script src="javascript/sliderScroll.js"></script>
+    <script src="javascript/botao.js"></script>
+    <!--   códigos javascript foram colocados em arquivos separados     -->
 </footer>
 </html>

@@ -16,7 +16,7 @@ header{
 }
 
 .header{
-    width: 1140px;
+    width: 1240px;
     max-width: 100%;
     height: 100px;
     margin: auto;
@@ -216,8 +216,8 @@ swiper-slide img {
   display: inline-block;
   outline: none;
   border-radius: 5px;
-  border: 2px solid #212529;
-  background: #212529;
+  border: 2px solid #CF7764;      /* mudei a cor do backgroud pois os botões n estavam ficando realmente "ativados"*/
+  background: #CF7764;
   white-space: nowrap;
 }
 
@@ -226,21 +226,8 @@ swiper-slide img {
   border: 2px solid #3E3A39;
 }
 
+
 /*  DISPLAY  */
-@media screen and (max-width: 900px) {
-  .main-section-aside {
-    display: none !important;
-  }
-  .main-section-first {
-    width: 100% !important;
-  }
-  .main-section-first-header {
-    width: 100% !important;
-  }
-  .botao {
-    font-size: xx-small;
-  }
-}
 
 .titulo-lista {
   background-color: rgba(128, 128, 128, 0.35); /* cor cinza com 85% de transparência */
@@ -251,6 +238,7 @@ swiper-slide img {
   color: #fff;
   margin: 10px;
   margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
   display: inline-block;
   align-items: center;
@@ -315,7 +303,7 @@ swiper-slide img {
 .lista-horizontal {
   color: #FFF;
   width: 100%;
-  height: 500px;
+  height: 320px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -460,4 +448,20 @@ button:hover {
     header{
         width: 3000px;
     }
+}
+
+
+@media screen and (max-width: 900px) {
+  .main-section-aside {
+    display: none !important;
+  }
+  .main-section-first {
+    width: 100% !important;
+  }
+  .main-section-first-header {
+    width: 100% !important;
+  }
+  .botao {
+    font-size: xx-small;
+  }
 }
