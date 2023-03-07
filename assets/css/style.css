@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Sans-serif;
 }
 
 /*      HEADER        */
@@ -76,12 +77,17 @@ header{
   border: none;
   border-radius: 30px;
   font-size: 13px;
-  width: 160px;
+  width: 200px;
   background: #f2f2f2;
   background: #f2f2f2 url("img/icon-lupa.png") no-repeat 95% center;
   background-size: 20px 20px;
 }
 
+
+/*  BODY */
+body {
+  background-color: #2B2827;
+}
 
 /*  BANNER CAROUSEL */
 
@@ -175,7 +181,7 @@ swiper-slide img {
 }
 
 .botao {
-    width: 100px;
+    width: auto;
     height: 35px;
     color: #fff;
     margin-left: 8px;
@@ -189,15 +195,262 @@ swiper-slide img {
     border-radius: 5px;
     border: 2px solid #212529;
     background: #212529;
-
+    white-space: nowrap;
 }
+
 .botao:hover{
     background-color: #3E3A39;
     border: 2px solid #CF7764;
 }
 
+.botao-selecionado {
+  width: auto;
+  height: 35px;
+  color: #fff;
+  margin-left: 8px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #212529;
+  background: #212529;
+  white-space: nowrap;
+}
+
+.botao-selecionado:hover{
+  background-color: #CF7764;
+  border: 2px solid #3E3A39;
+}
+
+/*  DISPLAY  */
+@media screen and (max-width: 900px) {
+  .main-section-aside {
+    display: none !important;
+  }
+  .main-section-first {
+    width: 100% !important;
+  }
+  .main-section-first-header {
+    width: 100% !important;
+  }
+  .botao {
+    font-size: xx-small;
+  }
+}
+
+.titulo-lista {
+  background-color: rgba(128, 128, 128, 0.35); /* cor cinza com 85% de transparência */
+  border-radius: 10px; /* bordas arredondadas */
+  padding: 10px; /* espaço interno do elemento */
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+}
+.titulo-lista::before {
+  content: '\2605'; /* código unicode para o emoji de estrela */
+  font-family: serif;
+  margin-right: 0.5rem;
+}
+
+.titulo-lista::after {
+  content: '\2605'; /* código unicode para o emoji de estrela */
+  font-family: serif;
+}
+
+.titulo-pesquisa-categoria {
+  background-color: rgba(128, 128, 128, 0.35); /* cor cinza com 85% de transparência */
+  border-radius: 10px; /* bordas arredondadas */
+  padding: 10px; /* espaço interno do elemento */
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-section-first {
+  width: calc(100% - 240px);
+  
+}
+
+.main-section-first-header {
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-section-first-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-section-aside {
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.lista-horizontal {
+  color: #FFF;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
 
 
+.lista-horizontal a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.lista-horizontal a:hover {
+  transform: translateY(-5px);
+}
+
+.lista-horizontal img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.lista-horizontal h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.lista-horizontal p {
+  margin: 5px 0 0;
+}
+
+.manga{
+  width: 20%;
+  margin-bottom: 10px;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slider li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+  margin-right: 10px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.slider li img {
+  display: block;
+  margin: 0 auto;
+}
+
+.slider li h3, 
+.slider li p, 
+.slider li a {
+  text-align: center;
+}
+
+/* configuração para imagem */
+.img-efeito {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* configuração para efeito de zoom */
+.img-efeito img {
+  transition: transform 0.3s ease;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-efeito:hover img {
+  transform: scale(1.2);
+}
+
+/* configuração para efeito de escurecimento */
+.img-efeito:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img-efeito:hover:after {
+  opacity: 1;
+}
+
+.categorias {
+  display: flex; /* Define a organização em linha dos botões */
+  justify-content: center; /* Alinha os botões no centro do container */
+  align-items: center; /* Centraliza verticalmente os botões */
+  margin-top: 20px; /* Adiciona um espaçamento entre o container e o elemento anterior */
+}
+
+button {
+  background-color: #f5f5f5;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 5px; /* Adiciona um espaçamento entre os botões */
+  transition: transform 0.2s ease-in-out; /* Adiciona um efeito de transição */
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.05); /* Adiciona um efeito de zoom ao passar o mouse sobre os botões */
+}
 
 
 
