@@ -112,6 +112,7 @@ swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-right: 20px solid #2B2827;
 }
 
 /* aba lateral - recentes e mais lidos */

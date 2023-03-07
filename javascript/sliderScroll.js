@@ -31,6 +31,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('.mySwiper').slick({
         slidesToShow: 3,
+        centerMode: true,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
@@ -54,6 +55,7 @@ $(document).ready(function () {
         ]
     });
 });
+
 
 
 /*
