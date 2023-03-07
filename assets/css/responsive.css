@@ -1,0 +1,7 @@
+/*  RESPONSIVIDADE  */
+
+@media(min-width:1441px){
+    header{
+        width: 3000px;
+    }
+}

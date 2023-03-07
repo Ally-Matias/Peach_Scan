@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /*      HEADER        */
 
 header{
@@ -189,22 +183,53 @@ swiper-slide img {
     border-radius: 5px;
     border: 2px solid #212529;
     background: #212529;
-
 }
+
 .botao:hover{
     background-color: #3E3A39;
     border: 2px solid #CF7764;
 }
 
-
-
-
-
-
-/*  RESPONSIVIDADE  */
-
-@media(min-width:1441px){
-    header{
-        width: 3000px;
-    }
+footer {
+    margin-bottom: 15px;
+    padding-bottom: 45px;
+    padding-top: 20px;
 }
+
+.alinhamento {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    max-width: 1530px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowup {
+    height: 60px;
+    width: 60px;
+}
+
+.back-top  {
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+#manga-list ul li a {
+    padding: 8px;
+    margin: 10px 0;
+    color: #6f6f6f;
+}
+
+#manga-list {
+    border-radius: 10px;
+    box-shadow: 0 -3px 0 0 #d83030,0 5px 15px 0 rgb(0 0 0/7%);
+    margin: 15px 0 0;
+    padding: 14px 0 15px;
+    width: 100%;
+}
+

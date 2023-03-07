@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peach Scan</title>
-    <link rel="icon" type="imagem/png" href="assets/css/img/logo-bar.png"/>
+    <link rel="icon" type="imagem/png" href="assets/css/img/logo-bar.png" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script src="javascript/bannerSlider.js"></script>
 </head>
+
 <body>
     <header>
         <div class="header">
             <div class="logo">
-                <a href=""><img src="assets/css/img/logo.png" height="200" width="300"></a>
+                <a href=""><img src="assets/img/logo.png" height="200" width="300"></a>
             </div>
             <div class="menu">
                 <nav>
@@ -26,9 +30,9 @@
 
                         <div class="search-container">
                             <form action="/search">
-                              <input type="text" name="pesquisa">
+                                <input type="text" name="pesquisa">
                             </form>
-                          </div>               
+                        </div>
 
                         <li><a href="#login">Entrar / Inscrever-se</a></li>
                     </ul>
@@ -41,94 +45,113 @@
     <main>
         <section class="banner-carousel">
             <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
-            space-between="30" free-mode="true">
-            <swiper-slide><img src="assets/css/img/solo.png"> </swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-            <swiper-slide><img src="assets/css/img/solo.png"></swiper-slide>
-          </swiper-container>
-        
-        
-          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>             
-        </section>
+                space-between="30" free-mode="true">
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+                <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
+            </swiper-container>
 
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        </section>
 
         <!-- aba lateral - recentes e mais lidos  -->
         <div class="barLateral">
             <div class="recentes">
-              <h2>Recentes</h2>
-              <ul>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-              </ul>
+                <h2>Recentes</h2>
+                <ul>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div class="maisLidosHoje">
-              <h2>Mais Lidos hoje</h2>
-              <ol>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/css/img/solo.png" height="65" width="65">
-                    <div>
-                        <p>Nome da obra</p>
-                        <input class="botao" type="button" value="CAP. XX" />
-                    </div>
-                </li>
-              </ol>
+                <h2>Mais Lidos hoje</h2>
+                <ol>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/solo.png" height="65" width="65">
+                        <div>
+                            <p>Nome da obra</p>
+                            <input class="botao" type="button" value="CAP. XX" />
+                        </div>
+                    </li>
+                </ol>
             </div>
-          </div>
+        </div>
     </main>
-    
+
 </body>
+<footer>
+    <div class="alinhamento">
+        <div id="manga-list">
+            <ul>
+                <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
+                <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
+                <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
+                <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
+                <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
+            </ul>
+            <a href="#" class="back-top" title="TOPO"><img class="arrowup" src="assets/img/arrowup.png" alt="topo"></a>
+            <hr>
+            <div class="fotd">
+                <p class="recaptcha-footer"></p>
+                <a class="logo" href="/"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </html>
