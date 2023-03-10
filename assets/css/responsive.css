@@ -5,3 +5,19 @@
         width: 3000px;
     }
 }
+
+
+@media screen and (max-width: 900px) {
+  .main-section-aside {
+    display: none !important;
+  }
+  .main-section-first {
+    width: 100% !important;
+  }
+  .main-section-first-header {
+    width: 100% !important;
+  }
+  .botao {
+    font-size: xx-small;
+  }
+}

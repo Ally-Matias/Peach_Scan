@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Perguntar ao cliente se o público alvo é brasileiro, se sim, trocar para (pt-BR) -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peach Scan</title>
-    <link rel="icon" type="imagem/png" href="assets/css/img/logo-bar.png" />
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <script src="javascript/bannerSlider.js"></script>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <title>Peach Scan</title>
 </head>
 
 <body>
@@ -30,7 +35,7 @@
 
                         <div class="search-container">
                             <form action="/search">
-                                <input type="text" name="pesquisa">
+                                <input type="text" name="pesquisa" placeholder="Pesquisar no site...">
                             </form>
                         </div>
 
@@ -41,11 +46,9 @@
         </div>
     </header>
 
-
-    <main>
+    <main> <!--   Swiper foi retirado, agr o projeto esta full slick     -->
         <section class="banner-carousel">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
-                space-between="30" free-mode="true">
+            <swiper-container class="mySwiper">
                 <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
                 <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
                 <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
@@ -56,87 +59,254 @@
                 <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
                 <swiper-slide><img src="assets/img/solo.png"></swiper-slide>
             </swiper-container>
-
-
-            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
         </section>
 
-        <!-- aba lateral - recentes e mais lidos  -->
-        <div class="barLateral">
-            <div class="recentes">
-                <h2>Recentes</h2>
-                <ul>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                </ul>
+        <!-- Display Setup -->
+        <section class="main-section">
+            <div class="main-section-first">
+                <header class="main-section-first-header">
+                    <div>
+                        <h2 class="titulo-lista"><span>Principais Obras </span></h2>
+                        <section>
+                            <ul class=" slider">
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                                <li>
+                                    <a href="#manga1">
+                                        <div class="img-efeito">
+                                            <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                                alt="Mangá 1">
+                                        </div>
+                                    </a>
+                                    <h3>Mangá 1</h3>
+                                    <p>Capítulos:150</p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="categorias">
+                        <button class="botao" type="button">Todos</button>
+                        <button class="botao" type="button">Ação</button>
+                        <button class="botao" type="button">Aventura</button>
+                        <button class="botao" type="button">Comédia</button>
+                        <button class="botao" type="button">Drama</button>
+                        <button class="botao" type="button">Fantasia</button>
+                        <button class="botao" type="button">Romance</button>
+                        <button class="botao" type="button">Sci-Fi</button>
+                        <button class="botao" type="button">Slice of Life</button>
+                        <button class="botao" type="button">Esportes</button>
+                    </div>
+                    <div class="search-container">
+                        <form>
+                            <input type="text" placeholder="Pesquisar Mangás...">
+                        </form>
+                    </div>
+                </header>
+                <div class="main-section-first-body">
+                    <h2 class="titulo-pesquisa-categoria"><span>Exibindo: (Categoria/Resultados da pesquisa) </span>
+                    </h2>
+                    <ul class="lista-horizontal">
+                        <li class="manga">
+                            <a href="#manga1">
+                                <div class="img-efeito">
+                                    <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                        alt="Mangá 1">
+                                </div>
+                            </a>
+                            <h3>Mangá 1</h3>
+                            <p>Capítulos:150</p>
+                        </li>
+                        <li class="manga">
+                            <a href="#manga2">
+                                <div class="img-efeito">
+                                    <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                        alt="Mangá 2">
+                                </div>
+                            </a>
+                            <h3>Mangá 1</h3>
+                            <p>Capítulos:150</p>
+                        </li>
+                        <li class="manga">
+                            <a href="#manga3">
+                                <div class="img-efeito">
+                                    <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                        alt="Mangá 3">
+                                </div>
+                            </a>
+                            <h3>Mangá 1</h3>
+                            <p>Capítulos:150</p>
+                        </li>
+                        <li class="manga">
+                            <a href="#manga3">
+                                <div class="img-efeito">
+                                    <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                        alt="Mangá 3">
+                                </div>
+                            </a>
+                            <h3>Mangá 1</h3>
+                            <p>Capítulos:150</p>
+                        </li>
+                        <li class="manga">
+                            <a href="#manga3">
+                                <div class="img-efeito">
+                                    <img src="https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg"
+                                        alt="Mangá 3">
+                                </div>
+                            </a>
+                            <h3>Mangá 1</h3>
+                            <p>Capítulos:150</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <aside class="main-section-aside">
+                <!-- aba lateral - recentes e mais lidos  -->
+                <div class="barLateral">
+                    <div class="recentes">
+                        <h2>Recentes</h2>
+                        <ul>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class="maisLidosHoje">
-                <h2>Mais Lidos hoje</h2>
-                <ol>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                    <li>
-                        <img src="assets/img/solo.png" height="65" width="65">
-                        <div>
-                            <p>Nome da obra</p>
-                            <input class="botao" type="button" value="CAP. XX" />
-                        </div>
-                    </li>
-                </ol>
-            </div>
-        </div>
+                    <div class="maisLidosHoje">
+                        <h2>Mais Lidos hoje</h2>
+                        <ol>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/solo.png" height="65" width="65">
+                                <div>
+                                    <p>Nome da obra</p>
+                                    <input class="botao" type="button" value="CAP. XX" />
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </aside>
+        </section>
     </main>
 
 </body>
+
 <footer>
     <div class="alinhamento">
-        <div id="manga-list">
+        <div id="under ">
             <ul>
                 <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
                 <li><a href="#" target="_blank" title="Nome-do-mangá">Nome da obra</a></li>
@@ -148,10 +318,17 @@
             <hr>
             <div class="fotd">
                 <p class="recaptcha-footer"></p>
-                <a class="logo" href="/"></a>
+                <a class="logo" href="#"></a>
             </div>
         </div>
     </div>
 </footer>
+
+<!-- códigos javascript foram colocados em arquivos separados -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="assets/js/sliderScroll.js"></script>
+<script src="assets/js/botao.js"></script>
 
 </html>
