@@ -1,61 +1,59 @@
 /*      HEADER        */
 
-header {
-  height: 120px;
-  max-width: 100%;
-  width: 100%;
-  background-color: #2B2827;
-  color: #FFF;
+.main-header{
+    height: 120px;
+    max-width: 100%;
+    width: 100%;
+    background-color: #2B2827;
+    color: #FFF;
 }
 
-.header {
-  width: 1240px;
-  max-width: 100%;
-  height: 100px;
-  margin: auto;
-  display: flex;
-  align-items: center;
+.header{
+    width: 1240px;
+    max-width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;  
 }
 
-.logo img {
-  margin-right: 20px;
+.logo img{
+    margin-right: 20px;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.menu {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
+.menu-open{
+    display: none;
 }
 
-.menu-open {
-  display: none;
-}
-
-.menu ul,
-.menu li {
-  list-style: none;
+.menu ul, .menu li{
+    list-style: none;
 
 }
 
-.menu ul {
-  display: flex;
-  align-items: center;
+.menu ul{
+    display: flex;
+    align-items: center;
 }
 
-.menu li a {
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
-  transition: all 0.2s ease;
-  font-size: 14px;
+.menu li a{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.2s ease; 
+    font-size: 14px;
 }
 
-.menu li a:hover {
-  color: #CF7764;
+.menu li a:hover{
+    color: #CF7764;
 }
 
 /* Estilização do contêiner da barra de pesquisa */
@@ -74,40 +72,39 @@ header {
   font-size: 13px;
   width: 200px;
   background: #f2f2f2;
-  background: #f2f2f2 url("../img/icon-lupa.png") no-repeat 95% center;
+  background: #f2f2f2 url("img/icon-lupa.png") no-repeat 95% center;
   background-size: 20px 20px;
 }
 
 
 /*  BODY */
 body {
-  background-color: #2B2827;
+  background: #2B2827 !important;
 }
 
 /*  BANNER CAROUSEL */
 
 swiper-container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-color: #2B2827;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #CCC;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background: #CCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 20px solid #2B2827;
 }
- 
+
 swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-right: 20px solid #2B2827;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* aba lateral - recentes e mais lidos */
@@ -115,110 +112,120 @@ swiper-slide img {
 .barLateral {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items:flex-end;
   width: 100%;
 }
 
 .recentes {
-  background-color: #3E3A39;
-  border: 1px solid #ccc;
-  height: 400px;
-  width: 240px;
-  margin-top: 15px;
-  border-radius: 20px 0px 0px 20px;
+    background-color: #3E3A39;
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 240px;
+    margin-top: 15px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .maisLidosHoje {
-  background-color: #3E3A39;
-  border: 1px solid #aaa;
-  height: 400px;
-  width: 240px;
-  margin-top: 15px;
-  border-radius: 20px 0px 0px 20px;
+    background-color: #3E3A39;
+    border: 1px solid #aaa;
+    height: 400px;
+    width: 240px;
+    margin-top: 15px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .recentes h2,
 .maisLidosHoje h2 {
-  font-family: sans-serif;
-  color: #CF7764;
-  font-size: 18px;
-  margin-top: 15px;
-  margin-left: 30px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+    font-family:sans-serif;
+    color: #CF7764;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .recentes ul,
 .maisLidosHoje ol {
-  color: #f2f2f2;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    color: #f2f2f2;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .recentes li,
 .maisLidosHoje li {
-  margin: 10px;
-  display: flex;
-  align-items: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .recentes li p,
 .maisLidosHoje li p {
-  font-size: 15px;
-  margin: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 0 10px 5px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .recentes li img,
 .maisLidosHoje li img {
-  margin: 5px;
-  margin-left: 15px;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.chapters{
+  border-radius: 0 0 0 5px;
+  z-index: 10;
+  position: absolute;
+  padding: 2px 8px;
+  color: #FFF;
+  right: 0;
+  font-weight: bold;
+  background-color: #CF7764;
 }
 
 .botao {
-  width: auto;
-  height: 35px;
-  color: #fff;
-  margin-left: 8px;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: 2px solid #212529;
-  background: #212529;
-  white-space: nowrap;
+    -webkit-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.47);
+    box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.47);
+    color: #fff;
+    margin-left: 8px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #4f565d;
+    background: #4f565d;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
 }
 
-.botao:hover {
-  background-color: #3E3A39;
-  border: 2px solid #CF7764;
+.badge{
+  margin-right: 2px;
+}
+
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botao:hover{
+    background-color: #3E3A39;
+    border: 2px solid #CF7764;
 }
 
 .botao-selecionado {
-  width: auto;
-  height: 35px;
-  color: #fff;
-  margin-left: 8px;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: 2px solid #CF7764;
-  /* mudei a cor do backgroud pois os botões n estavam ficando realmente "ativados"*/
   background: #CF7764;
-  white-space: nowrap;
 }
 
-.botao-selecionado:hover {
+.botao-selecionado:hover{
   background-color: #CF7764;
   border: 2px solid #3E3A39;
 }
@@ -227,43 +234,17 @@ swiper-slide img {
 /*  DISPLAY  */
 
 .titulo-lista {
-  background-color: rgba(128, 128, 128, 0.35);
-  /* cor cinza com 85% de transparência */
-  border-radius: 10px;
-  /* bordas arredondadas */
-  padding: 10px;
-  /* espaço interno do elemento */
-  font-size: 20px;
+  color: #CF7764;
+  text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
-  margin: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
-  text-align: center;
-  display: inline-block;
-  align-items: center;
-}
-
-.titulo-lista::before {
-  content: '\2605';
-  /* código unicode para o emoji de estrela */
-  font-family: serif;
-  margin-right: 0.5rem;
-}
-
-.titulo-lista::after {
-  content: '\2605';
-  /* código unicode para o emoji de estrela */
-  font-family: serif;
 }
 
 .titulo-pesquisa-categoria {
-  background-color: rgba(128, 128, 128, 0.35);
-  /* cor cinza com 85% de transparência */
-  border-radius: 10px;
-  /* bordas arredondadas */
-  padding: 10px;
-  /* espaço interno do elemento */
+  background-color: rgba(128, 128, 128, 0.35); /* cor cinza com 85% de transparência */
+  border-radius: 10px; /* bordas arredondadas */
+  padding: 10px; /* espaço interno do elemento */
   font-size: 20px;
   font-weight: bold;
   color: #fff;
@@ -280,20 +261,69 @@ swiper-slide img {
   width: 100%;
 }
 
-.main-section-first {
-  width: calc(100% - 240px);
+#manga-box-render .card-box, #manga-filted-box-render .card-box{
+  color: #FFF;
+  z-index: 100 !important;
+  background-color: #3E3A39;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  width: 170px;
+}
 
+.shadow-margin-rigth{
+  width: 100px;
+  margin-right: -100px;
+  background: #2B2827;
+  background: linear-gradient(90deg, #2B2827 17%, #2b282700 100%);
+}
+
+#manga-box-render .card-box h3, #manga-filted-box-render  .card-box h3{
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0 10px;
+  font-size: medium;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 !important;
+}
+
+#manga-box-render .card-box h3 label, #manga-filted-box-render  .card-box h3 label{
+  padding: 0 3px;
+  background-color: #CF7764;
+  border-radius: 3px;
+  margin-left:  10px;
+}
+
+#manga-box-render, #manga-filted-box-render{
+  text-align: start !important;
+}
+#manga-box-render .checked, #manga-filted-box-render .checked{
+  color: #ffd000;
+}
+
+#manga-box-render .card-box p, #manga-filted-box-render  .card-box p{
+  font-size: small;
+  text-align: left;
+  padding: 0 10px;
+}
+#manga-box-render .card-box div, #manga-filted-box-render .card-box div{
+  border-radius: 5px;
+}
+
+.main-section-first {
+  width: calc(85% - 240px);
+  margin-left: 15%;
 }
 
 .main-section-first-header {
   width: 100%;
-  height: 460px;
+  height: 400px;
   overflow: hidden;
-  text-align: center;
 }
 
 .main-section-first-body {
-  padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
   overflow: hidden;
@@ -346,11 +376,10 @@ swiper-slide img {
   margin: 5px 0 0;
 }
 
-.manga {
+.manga{
   width: 20%;
   margin-bottom: 10px;
 }
-
 section {
   display: flex;
   justify-content: center;
@@ -381,8 +410,8 @@ section {
   margin: 0 auto;
 }
 
-.slider li h3,
-.slider li p,
+.slider li h3, 
+.slider li p, 
 .slider li a {
   text-align: center;
 }
@@ -424,14 +453,13 @@ section {
 }
 
 .categorias {
-  display: flex;
-  /* Define a organização em linha dos botões */
-  justify-content: center;
-  /* Alinha os botões no centro do container */
-  align-items: center;
-  /* Centraliza verticalmente os botões */
-  margin-top: 20px;
-  /* Adiciona um espaçamento entre o container e o elemento anterior */
+  width: 100%;
+  display: flex; /* Define a organização em linha dos botões */
+  flex-flow: row wrap;
+  padding: 0 100px 0 100px;
+}
+.categorias button{
+    margin: 10px auto ;
 }
 
 button {
@@ -441,23 +469,19 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin: 0 5px;
-  /* Adiciona um espaçamento entre os botões */
-  transition: transform 0.2s ease-in-out;
-  /* Adiciona um efeito de transição */
+  margin: 0 5px; /* Adiciona um espaçamento entre os botões */
+  transition: transform 0.2s ease-in-out; /* Adiciona um efeito de transição */
 }
 
 button:hover {
   background-color: #333;
   color: #fff;
-  transform: scale(1.05);
-  /* Adiciona um efeito de zoom ao passar o mouse sobre os botões */
+  transform: scale(1.05); /* Adiciona um efeito de zoom ao passar o mouse sobre os botões */
 }
-
 footer {
   margin-bottom: 15px;
   padding-bottom: 45px;
-  padding-top: 20px;
+  margin-top: 60px;
 }
 
 #manga-list {
@@ -518,7 +542,7 @@ footer {
 #manga-list .logo {
   width: 180px;
   height:180px;
-  background: url(/assets/img/logo.png) no-repeat;
+  background: url(/assets/css/img/logo.png) no-repeat;
   background-size: 100%;
   margin-left: auto;
   margin-right: 15px;

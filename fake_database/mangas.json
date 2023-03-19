@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Simply dummy",
+        "chapters": "174",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Comédia"],
+        "stars": 3.5
+    },
+    {
+        "name": "Lorem ipsum",
+        "chapters": "189",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 3.1
+    },
+    {
+        "name": "Dolor sit amet",
+        "chapters": "131",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 3.2
+    },
+    {
+        "name": "Quisque rhoncus",
+        "chapters": "256",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 3.5
+    },
+    {
+        "name": "Consectetur adipiscing",
+        "chapters": "230",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 3.7
+    },
+    {
+        "name": "Duis consequat",
+        "chapters": "410",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 4.9
+    },
+    {
+        "name": "Libero ullamcorper",
+        "chapters": "157",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 3.4
+    },
+    {
+        "name": "Placerat sit amet",
+        "chapters": "300",
+        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+        "href": "#",
+        "category": ["Ação", "Sci-Fi"],
+        "stars": 3.6
+    }
+]
