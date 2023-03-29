@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leitura de Mangá</title>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #manga-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    #manga-page {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 80%;
+      max-width: 800px;
+      height: 80%;
+      max-height: 800px;
+      border: 1px solid #000;
+      box-shadow: 0 0 10px #000;
+    }
+    
+    #prev-page, #next-page {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2em;
+      font-weight: bold;
+      color: #fff;
+      background-color: rgba(0,0,0,0.5);
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    #prev-page:hover, #next-page:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    #prev-page {
+      left: 0;
+    }
+    
+    #next-page {
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="manga-container">
+    <div id="manga-page"></div>
+    <div id="prev-page">&lt;</div>
+    <div id="next-page">&gt;</div>
+  </div>
+  <script>
+    const mangaPage = document.getElementById('manga-page');
+    const prevButton = document.getElementById('prev-page');
+    const nextButton = document.getElementById('next-page');
+    const mangaPages = [
+      'C:\Users\Vinicius\Desktop\things\programacao\Peach_Scan\assets\img',
+      'https://static2.mangalivre.net/avif/l6gTY1jyvLzytti99NdijA/9PjUzKmoLAzA2p0lIMoi1w/m11601335/1036/428041/452348/img_or2303230954_0004.png.avif',
+      'https://static2.mangalivre.net/avif/doVbxWFAuJxC5Mkj0xQAAg/OBTwsMjWlOMIslcSUHnW3Q/m11601336/1036/428041/452348/img_or2303230954_0005.png.avif'
+    ];
+    let currentPageIndex = 0;
+    
+    function updateMangaPage() {
+      mangaPage.style.backgroundImage = `url('${mangaPages[currentPageIndex]}')`;
+    }
+    
+    function goToPrevPage() {
+      if (currentPageIndex > 0) {
+        currentPageIndex--;
+        updateMangaPage();
+      }
+    }
+    
+    function goToNextPage() {
+      if (currentPageIndex < mangaPages.length - 1) {
+        currentPageIndex++;
+        updateMangaPage();
+      }
+    }
+    
+    updateMangaPage();
+    prevButton.addEventListener('click', goToPrevPage);
+    nextButton.addEventListener('click', goToNextPage);
+  </script>
+</body>
+</html>
