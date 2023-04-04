@@ -123,82 +123,69 @@ main{
   width: 40px;
 }
 
-.obra-down{
+
+
+
+.obra-down {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: auto;
-}
+  }
+  
+  table {
+  border-collapse: collapse;
+  width: 1000px;
+  font-size: 16px;
+  font-weight: bold;
 
-.capitulos{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  padding: 20px;
-  background-color: #3E3A39;
+  }
+
+  
+  thead th {
+  background-color: #2B2827;
   color: #FFF;
   font-size: 18px;
   font-weight: bold;
   height: 55px;
   border-radius: 5px;
-  width: 1000px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-/* TEMPORARIO POIS NÃO É ESCALAVEL*/
-
-.capitulos #caps{
-  margin-left: -40px;
-}
-
-.capitulos #comen{
-  margin-left: 570px;
-}
-
-.capitulos #likes{
-  margin-left: 145px;
-}
-
-.infocaps{
-  display: flex;
-  flex-direction: row;
-}
-
-.infocaps #cap{
-  color: #FFF;
-  margin-top: 80px;
-  font-weight: bold;
-  font-size: 20px;
-  border-bottom: 3px solid #E76E54;
-  margin-right: 500px;
+  padding: 20px;
+  text-align: center;
   
-}
-
-.infocaps #com{
+  }
+  
+  tbody tr {
   color: #FFF;
-  margin-top: 80px;
-  font-weight: bold;
-  font-size: 20px;
-  border-bottom: 3px solid #E76E54;
-  margin-right: 100px;
-}
+  background-color: #3E3A39;
+  border-bottom: solid 10px #2B2827;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  tbody td {
+  padding: 10px;
+  text-align: center;
 
-.infocaps #lik{
-  color: #FFF;
-  margin-top: 80px;
-  font-weight: bold;
-  font-size: 20px;
-  border-bottom: 3px solid #E76E54;
-  margin-right: 10px;
-}
-
-.infocaps #sts{
-  color: #FFF;
-  margin-top: 80px;
-  font-weight: bold;
-  font-size: 20px;
-  border-bottom: 3px solid #E76E54;
-  margin-right: 50px;
-}
+  }
+  
+  tbody td:first-child {
+  text-align: left;
+  }
+  
+  thead th:not(:first-child),
+  tbody td:not(:first-child) {
+  width: 200px;
+  }
+  
+  thead th:nth-child(2),
+  tbody td:nth-child(2) {
+  width: 150px;
+  }
+  
+  thead th:nth-child(3),
+  tbody td:nth-child(3),
+  thead th:nth-child(4),
+  tbody td:nth-child(4) {
+  width: 100px;
+  }
