@@ -26,13 +26,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link rel="stylesheet" href="./assets/css/transition.css">
+
 </head>
 
 <body>
     <header class="main-header" id="topo">
         <div class="header">
             <div class="logo">
-                <a href="index.html"><img src="assets/img/logo.png" height="80" width="100" /></a>
+                <a href="index.html" redirect-to="home.html"><img src="assets/img/logo.png" height="80" width="100" /></a>
             </div>
             <div class="menu">
                 <nav>
@@ -48,203 +50,75 @@
                             </form>
                         </div>
 
-                        <li><a href="#login">Entrar / Inscrever-se</a></li>
+                        <li><a href="#login" redirect-to="login.html">Entrar / Inscrever-se</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <main>
-        <!--   Swiper foi retirado, agr o projeto esta full slick     -->
-        <section class="banner-carousel">
-            <swiper-container class="mySwiper">
-                <swiper-slide><img src="assets/img/solo.png" /> </swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-                <swiper-slide><img src="assets/img/solo.png" /></swiper-slide>
-            </swiper-container>
-        </section>
+    <iframe src="home.html" id="iframe"></iframe>
 
-        <!-- Display Setup -->
-        <section class="main-section">
-            <div class="main-section-first">
-                <header class="main-section-first-header">
-                    <div>
-                        <h2 class="titulo-lista"><span>Principais Obras</span></h2>
-                        <section>
-                            <div class="shadow-margin-rigth"></div>
-                            <ul id="manga-box-render" class="slider"></ul>
-                        </section>
-                    </div>
-                </header>
-                <div class="main-section-first-body">
-                    <div class="categorias">
-                        <button class="botao" type="button">Atualizados</button>
-                        <button class="botao" type="button">Ação</button>
-                        <button class="botao" type="button">Aventura</button>
-                        <button class="botao" type="button">Comédia</button>
-                        <button class="botao" type="button">Drama</button>
-                        <button class="btn" style="background: #cf7764; color: white" type="button"
-                            data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-                            aria-controls="collapseExample">
-                            <i class="glyphicon glyphicon-plus"></i>
-                        </button>
-                    </div>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body" style="background: none; padding: 0; border: none">
-                            <div class="categorias">
-                                <button class="botao" type="button">Fantasia</button>
-                                <button class="botao" type="button">Romance</button>
-                                <button class="botao" type="button">Sci-Fi</button>
-                                <button class="botao" type="button">Slice of Life</button>
-                                <button class="botao" type="button">Esportes</button>
-                            </div>
+    <footer>
+        <div class="above">
+            <div id="under">
+                <ul>
+                    <li>
+                        <a href="https://www.padrim.com.br/PeachScan" target="_blank" title="Apoie-nos!">
+                            <img src="assets/img/padrim.png" alt="padrim-logo" /></a>
+                    </li>
+
+                    <li>
+                        <a href="https://discord.com/invite/SWg7A7vze8" target="_blank"
+                            title="Entre em nosso Discord! :D">
+                            <img src="assets/img/discord_logo.png" alt="discord-logo" /></a>
+                    </li>
+
+                    <li>
+                        <a href="termos-de-uso.html" redirect-to="termos-de-uso.html" target="_blank" title="Termos de uso!">
+                            <img src="assets/img/termos_de_uso.png" alt="termos-de-uso" /></a>
+                    </li>
+
+                    <li>
+                        <a href="politicas-de-privacidade.html" redirect-to="politicas-de-privacidade.html" target="_blank" title="Politicas de privacidade!">
+                            <img src="assets/img/privacidade.png" alt="politicas-de-privacidade" /></a>
+                    </li>
+                </ul>
+                <div class="arrow" data-scroll="suave">
+                    <a href="#topo" title="Ao infinito e além...">
+                        <div>
+                            <img class="arrowimg" src="assets/img/arrowup.png" alt="voltar-ao-topo" />
                         </div>
-                    </div>
-                    <section style="margin-top: 20px">
-                        <div class="shadow-margin-rigth"></div>
-                        <ul id="manga-filted-box-render" class="slider"></ul>
-                    </section>
+                    </a>
                 </div>
-            </div>
-            <aside class="main-section-aside">
-                <!-- aba lateral - recentes e mais lidos  -->
-                <div class="barLateral">
-                    <div class="recentes">
-                        <h2>Últimos lidos</h2>
-                        <ul>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="maisLidosHoje">
-                        <h2>Mais Lidos hoje</h2>
-                        <ol>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/img/solo.png" height="65" width="65" />
-                                <div>
-                                    <p>Nome da obra</p>
-                                    <input class="botao" type="button" value="CAP. XX" />
-                                </div>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </aside>
-        </section>
-    </main>
-</body>
-
-<footer>
-    <div class="above">
-        <div id="under">
-            <ul>
-                <li>
-                    <a href="https://www.padrim.com.br/PeachScan" target="_blank" title="Apoie-nos!">
-                        <img src="assets/img/padrim.png" alt="padrim-logo" /></a>
-                </li>
-
-                <li>
-                    <a href="https://discord.com/invite/SWg7A7vze8" target="_blank" title="Entre em nosso Discord! :D">
-                        <img src="assets/img/discord_logo.png" alt="discord-logo" /></a>
-                </li>
-
-                <li>
-                    <a href="termos-de-uso.html" target="_blank" title="Termos de uso!">
-                        <img src="assets/img/termos_de_uso.png" alt="termos-de-uso" /></a>
-                </li>
-
-                <li>
-                    <a href="politicas-de-privacidade.html" target="_blank" title="Politicas de privacidade!">
-                        <img src="assets/img/privacidade.png" alt="politicas-de-privacidade" /></a>
-                </li>
-            </ul>
-            <div class="arrow" data-scroll="suave">
-                <a href="#topo" title="Ao infinito e além...">
-                    <div>
-                        <img class="arrowimg" src="assets/img/arrowup.png" alt="voltar-ao-topo" />
-                    </div>
-                </a>
             </div>
         </div>
-    </div>
-    <hr />
-    <div class="fotd">
-        <a class="logo" href="/" title="Peach Scan"></a>
-        <p id="rights">©︎2023 Peach Scan - Todos os Direitos Reservados.</p>
-    </div>
-</footer>
+        <hr />
+        <div class="fotd">
+            <a class="logo" href="/" title="Peach Scan"></a>
+            <p id="rights">©︎2023 Peach Scan - Todos os Direitos Reservados.</p>
+        </div>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script src="javascript/sliderScroll.js"></script>
-<script src="javascript/botao.js"></script>
-<script type="module" src="javascript/loadMangas.js"></script>
-<script src="javascript/arrowup.js"></script>
-<!--   códigos javascript foram colocados em arquivos separados     -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="javascript/sliderScroll.js"></script>
+    <script src="javascript/botao.js"></script>
+    <script type="module" src="javascript/loadMangas.js"></script>
+    <script src="javascript/arrowup.js"></script>
+    <script src="javascript/redirect.js"></script>
+    <!--   códigos javascript foram colocados em arquivos separados     -->
+</body>
 
 </html>

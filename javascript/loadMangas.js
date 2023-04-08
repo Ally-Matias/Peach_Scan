@@ -18,7 +18,7 @@ $("#manga-box-render").append(`
 <li>
 <div class="card-box">
 <div>
-<a href="${element.href}">
+<a href="${element.href}" redirect-to="obra.html">
     <div class="img-efeito">
         <span alt="Capitulo" class="chapters">${element.chapters}</span>
         <img src="${element.src}"alt="${element.name}">
@@ -51,7 +51,7 @@ mangas.map(function (element, index) {
     <li>
     <div class="card-box">
     <div>
-    <a href="${element.href}">
+    <a href="${element.href}" redirect-to="obra.html">
         <div class="img-efeito">
             <span alt="Capitulo" class="chapters">${element.chapters}</span>
             <img src="${element.src}"alt="${element.name}">

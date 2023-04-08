@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style-login-register.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/transition.css">
+</head>
+<body>
+    <div class="container-login-register">
+        <div class="login-register">
+            <img src="assets/img/background-anime.png" class="background-login" alt="Personagens de animes">
+            <div class="box-login-register">
+                <div class="buttons-select">
+                    <button class="select-login selected">Login</button>
+                    <button class="select-register">Fazer Cadastro</button>
+                </div>
+
+                <form action="" method="post" class="form-login">
+                    <h3>Login</h3>
+                    <input type="email" name="" class="form-input input-text"  placeholder="Email">
+                    <input type="password" name="" class="form-input input-text" placeholder="Senha">
+                    <input type="submit" class="form-input input-submit" value="ENTRAR">
+                    <span class="forgot-password" redirect-to="home.html">Esqueci a Senha</span>
+                </form>
+                
+                <form action="" method="post" class="form-register form-hide">
+                    <h3>Cadastro</h3>
+                    <input type="email" name="" class="form-input input-text" placeholder="Email">
+                    <input type="password" name="" class="form-input input-text" placeholder="Senha">
+                    <input type="submit" class="form-input input-submit" value="CADASTRAR">
+                    <span class="sign-in-with">Entrar com Google ou Discord</span>
+                    <div class="icons-login">
+                        <img src="./assets/img/discord-logo.png" alt="Logo discord" redirect-to="home.html">
+                        <img src="./assets/img/google-logo.png" alt="Logo google" redirect-to="home.html">
+                    </div>
+                </form>
+        
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/login-register.js"></script>
+</body>
+</html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
 /*      HEADER        */
 
 .main-header {
@@ -664,4 +666,14 @@ footer .fotd .logo:hover {
     margin: 30px 0 35px 0;
     text-shadow: 0.1em 0.1em 0.2em #CF7764;
     background: url("https://www.brmangas.net/wp-content/themes/brmangasnew/images/black/doble-dote.png") repeat-x;
+}
+
+/* estilizando o iframe */
+#iframe{
+    width:100%; 
+    overflow: hidden;
+}
+
+#iframe::-webkit-scrollbar {
+    display: none;
 }

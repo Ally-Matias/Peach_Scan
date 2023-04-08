@@ -1,0 +1,181 @@
+/* Estilização da tela de login e registro */
+.container-login-register {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-register {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.924);
+}
+
+.login-register .background-login {
+  max-width: 1440px;
+  width: 100vw;
+  z-index: -100;
+}
+
+.login-register .box-login-register {
+  position: absolute;
+  background: linear-gradient(180deg, rgb(212, 81, 53) 50%, rgb(86, 30, 18) 100%);
+  width: 50vw;
+  max-width: 500px;
+  z-index: 1000;
+}
+
+.login-register .box-login-register .buttons-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-register .box-login-register .select-login,
+.select-register {
+  width: 49.8%;
+  color: rgb(212, 81, 53);
+  margin: 0;
+  background: rgb(86, 30, 18);
+  opacity: .8;
+  margin-top: -50px;
+  font-weight: bolder;
+  transition: all linear .5s;
+}
+
+.login-register .box-login-register .select-login:hover,
+.select-register:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.login-register .box-login-register .selected {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.login-register .box-login-register h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.login-register .box-login-register .form-login,
+.form-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  transition: opacity ease-out 1.5s;
+}
+
+.login-register .box-login-register .form-hide {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.girar{
+  animation: rotacao 1s;
+}
+
+@keyframes rotacao {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.login-register .box-login-register .form-input {
+  border-radius: 30px;
+  width: 75%;
+  line-height: 50px;
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+.login-register .box-login-register .input-text {
+  background-color: rgb(207, 207, 207);
+  padding-left: 10px;
+}
+
+.login-register .box-login-register .input-submit {
+  background-color: rgb(123, 161, 131);
+  color: #fff;
+  font-family: 'Barlow Condensed';
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  margin-top: 15px;
+  transition: all .5s linear;
+}
+
+.login-register .box-login-register .input-submit:hover {
+  background-color: rgb(81, 118, 89);
+  box-shadow: .5px .5px 5px .5px rgba(0, 0, 0, 0.924);
+  transition: all .3s linear;
+}
+
+.login-register .box-login-register .forgot-password,.sign-in-with {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  color: rgb(232, 90, 58);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.login-register .box-login-register .forgot-password:hover{
+  color: #fff;
+  transition: .5s;
+}
+
+.login-register .box-login-register .sign-in-with {
+  border-bottom: 1px solid rgb(232, 90, 58);
+}
+
+.login-register .box-login-register .input-text::placeholder {
+  color: #fff;
+}
+
+.login-register .box-login-register .icons-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-register .box-login-register .icons-login img:nth-child(1) {
+  width: 65px;
+  height: 65px;
+}
+
+.login-register .box-login-register .icons-login img:nth-child(2) {
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.login-register .box-login-register .icons-login img{
+  cursor: pointer;
+  transition: transform linear .3s;
+}
+.login-register .box-login-register .icons-login img:hover{
+  transform: scale(1.1);
+  transition: transform linear .3s;
+}
+
+.login-register .box-login-register .input-text:focus {
+  background-color: rgb(249, 234, 234);
+  box-shadow: .5px .5px 5px .5px rgba(0, 0, 0, 0.924);
+  transition: all .2s ease-in-out;
+}
