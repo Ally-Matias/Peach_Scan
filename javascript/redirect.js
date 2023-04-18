@@ -7,7 +7,7 @@ window.addEventListener("resize", function () {
     if (iframe) {
         iframe.contentWindow.location.reload();
     }
-});
+}, false);
 
 if (iframe) {
 //toda vez que o iframe carrega este evento atualiza a altura do iframe e adiciona um evento de click de redirecionamento para todos os link da página dentro do iframe

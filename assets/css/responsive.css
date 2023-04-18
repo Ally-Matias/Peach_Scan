@@ -13,6 +13,8 @@
   }
   .main-section-first {
     width: 100% !important;
+    margin: 0px !important;
+    padding: 20px;
   }
   .main-section-first-header {
     width: 100% !important;

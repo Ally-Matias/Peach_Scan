@@ -3,7 +3,7 @@
 /*      HEADER        */
 
 .main-header {
-    height: 120px;
+    height: auto;
     max-width: 100%;
     width: 100%;
     background-color: #2B2827;
@@ -18,7 +18,96 @@
     display: flex;
     align-items: center;
 }
+.header .menu:has(.navbar-collapse.collapse.show) img{
+    margin-bottom: 20px;
+}
+.header .menu:has(.navbar-collapse.collapse.show){
+    margin-top: 220px;
+}
+.navbar-collapse.collapse.show .search-container.mr-auto{
+    display: none;
+}
+.navbar-collapse.collapse.show .nav-item{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+    border-bottom: #333 2px solid;
+    border-top: #333 2px solid;
+}
+.header .menu *{
+    background-color: #2B2827;
+}
+#paginator-box{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#paginator-box .page-link{
+    background: none;
+    border: none;
+    border-radius: 0;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .2s;
+}
 
+#paginator-box .active{
+    border-bottom: 4px solid #CF7764;
+}
+
+#paginator-box .page-link:hover{
+    background-color: #ffffff20;
+}
+.manga-grid{
+    display: flex;
+    flex-grow:1;
+    flex-shrink:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.navbar-toggler{
+    background: none;
+}
+.manga-grid a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.manga-grid .chapters{
+    top: 0;
+}
+.manga-grid .img-efeito{
+    width: 150px !important;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.manga-grid div{
+    width: 170px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+.manga-grid .card-box{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 20px;
+}
 .logo img {
     margin-right: 20px;
 }
@@ -329,8 +418,9 @@ swiper-slide img {
 }
 
 .main-section-first {
-    width: calc(85% - 240px);
+    width: calc(82% - 240px);
     margin-left: 15%;
+    margin-right: 3%;
 }
 
 .main-section-first-header {
@@ -401,7 +491,48 @@ section {
     display: flex;
     justify-content: center;
 }
-
+.slider-mnt::-webkit-scrollbar {
+    display: none;
+}
+.slider-mnt{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 10px
+}
+.slider-mnt div{
+    width: 170px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+.slider-mnt a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-mnt .chapters{
+    top: 0;
+}
+.slider-mnt .img-efeito{
+    width: 150px !important;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.slider-mnt .card-box{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 20px;
+}
 .slider {
     display: flex;
     list-style: none;
@@ -474,7 +605,6 @@ section {
     display: flex;
     /* Define a organização em linha dos botões */
     flex-flow: row wrap;
-    padding: 0 100px 0 100px;
 }
 
 .categorias button {

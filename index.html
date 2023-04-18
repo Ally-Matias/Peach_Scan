@@ -33,25 +33,34 @@
 <body>
     <header class="main-header" id="topo">
         <div class="header">
-            <div class="logo">
-                <a href="index.html" redirect-to="home.html"><img src="assets/img/logo.png" height="80" width="100" /></a>
-            </div>
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#discord">discord</a></li>
-                        <li><a href="#facebook">facebook</a></li>
-                        <li><a href="#padrim">padrim</a></li>
-                        <li><a href="#sobre">sobre nós</a></li>
+                <nav style="width: 100%; height: auto !important;" class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo">
+                            <a href="index.html" redirect-to="home.html"><img src="assets/img/logo.png" height="80" width="100" /></a>
+                        </div>
+                    </a>
 
-                        <div class="search-container">
-                            <form action="/search">
-                                <input type="text" name="pesquisa" />
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span color="red" class="navbar-toggler-icon">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">                        
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a href="#discord">discord</a></li>
+                            <li class="nav-item"><a href="#facebook">facebook</a></li>
+                            <li class="nav-item"><a href="#padrim">padrim</a></li>
+                            <li class="nav-item"><a href="#sobre">sobre nós</a></li>
+                            <li class="nav-item"><a href="#login" redirect-to="login.html">Entrar / Inscrever-se</a></li>
+                        </ul>
+                        <div class="search-container mr-auto">
+                            <form  class="form-inline my-2 my-lg-0" action="/search">
+                                <input class="form-control mr-sm-2" type="text" name="pesquisa" />
                             </form>
                         </div>
-
-                        <li><a href="#login" redirect-to="login.html">Entrar / Inscrever-se</a></li>
-                    </ul>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -98,7 +107,7 @@
             <a class="logo" href="/" title="Peach Scan"></a>
             <p id="rights">©︎2023 Peach Scan - Todos os Direitos Reservados.</p>
         </div>
-    </footer>
+    </footer> 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
