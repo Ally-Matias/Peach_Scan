@@ -8,6 +8,7 @@
 
 .login-register {
   width: 100%;
+  height: 800px;
   max-width: 1440px;
   display: flex;
   justify-content: center;
@@ -16,13 +17,18 @@
 }
 
 .login-register .background-login {
+  background: url(../img/background-anime.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
   max-width: 1440px;
   width: 100vw;
+  height: 800px;
   z-index: -100;
 }
 
 .login-register .box-login-register {
-  position: absolute;
+  /* position: absolute; */
   background: linear-gradient(180deg, rgb(212, 81, 53) 50%, rgb(86, 30, 18) 100%);
   width: 50vw;
   max-width: 500px;
@@ -80,7 +86,7 @@
   overflow: hidden;
 }
 
-.girar{
+.girar {
   animation: rotacao 1s;
 }
 
@@ -88,6 +94,7 @@
   from {
     transform: rotateY(0deg);
   }
+
   to {
     transform: rotateY(360deg);
   }
@@ -122,7 +129,8 @@
   transition: all .3s linear;
 }
 
-.login-register .box-login-register .forgot-password,.sign-in-with {
+.login-register .box-login-register .forgot-password,
+.sign-in-with {
   margin-top: 10px;
   width: 100%;
   text-align: center;
@@ -131,7 +139,7 @@
   cursor: pointer;
 }
 
-.login-register .box-login-register .forgot-password:hover{
+.login-register .box-login-register .forgot-password:hover {
   color: #fff;
   transition: .5s;
 }
@@ -165,11 +173,12 @@
   margin-left: 10px;
 }
 
-.login-register .box-login-register .icons-login img{
+.login-register .box-login-register .icons-login img {
   cursor: pointer;
   transition: transform linear .3s;
 }
-.login-register .box-login-register .icons-login img:hover{
+
+.login-register .box-login-register .icons-login img:hover {
   transform: scale(1.1);
   transition: transform linear .3s;
 }
@@ -178,4 +187,126 @@
   background-color: rgb(249, 234, 234);
   box-shadow: .5px .5px 5px .5px rgba(0, 0, 0, 0.924);
   transition: all .2s ease-in-out;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width:1024px) {
+  .login-register .box-login-register h3 {
+    font-size: 1.8em;
+  }
+
+  .login-register {
+    height: 500px;
+  }
+
+  .login-register .background-login {
+    height: 500px;
+  }
+
+  .login-register .box-login-register .form-input {
+    width: 85%;
+    line-height: 40px;
+    margin-top: 5px;
+    font-size: 1em;
+  }
+
+  .login-register .box-login-register .form-login,
+  .form-register {
+    margin: 20px;
+  }
+
+  .login-register .box-login-register .icons-login img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .login-register .box-login-register .select-login,
+  .select-register {
+    margin-top: -35px;
+    padding: 5px 10px;
+    font-size: 1em;
+  }
+
+  .login-register .box-login-register .forgot-password,
+  .sign-in-with {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+
+  .login-register .box-login-register {
+    width: 60vw;
+  }
+}
+
+@media(max-width:670px) {
+  .login-register .box-login-register h3 {
+    font-size: 1.3em;
+  }
+
+  .login-register .box-login-register .form-input {
+    line-height: 35px;
+    margin-top: 5px;
+    font-size: .8em;
+  }
+
+  .login-register .box-login-register .icons-login img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .login-register .box-login-register .select-login,
+  .select-register {
+    margin-top: -25px;
+    padding: 2px 5px;
+    font-size: .8em;
+  }
+
+  .login-register .box-login-register .forgot-password,
+  .sign-in-with {
+    margin-top: 5px;
+    font-size: .6em;
+  }
+
+  .login-register .box-login-register {
+    width: 70vw;
+  }
+}
+
+@media(max-width:400px) {
+  .login-register .box-login-register h3 {
+    font-size: 1.2em;
+  }
+
+  .login-register .box-login-register .form-input {
+    line-height: 35px;
+    margin-top: 5px;
+    font-size: .8em;
+  }
+
+  .login-register .box-login-register .icons-login img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .login-register .box-login-register .select-login,
+  .select-register {
+    margin-top: -25px;
+    padding: 2px 5px;
+    font-size: .8em;
+  }
+
+  .login-register .box-login-register .forgot-password,
+  .sign-in-with {
+    margin-top: 5px;
+    font-size: .6em;
+  }
+
+  .login-register .box-login-register {
+    width: 90vw;
+  }
+
+  .login-register .box-login-register .form-login,
+  .form-register {
+    margin: 5px;
+  }
 }
