@@ -1,370 +1,353 @@
 /*   RESPONSIVIDADE   */
 
-@media(min-width:1441px){
-    header{
-        width: 2560px;
-    }
+@media (min-width: 1441px) {
+  header {
+    width: 2560px;
+  }
 }
 
+@media (max-width: 1280px) {
+  #container {
+    max-width: 690px;
+  }
 
-@media(max-width:1280px) {
-    #container #section-center {
-        max-width: 690px;
-    }
+  #container #imagem {
+    width: 260px;
+    height: 300px;
+  }
 
-    #container #imagem {
-        width: 260px;
-        height: 300px;
-    }
+  #container #titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
 
-    #container #titulo {
-        font-size: 35px;
-        margin-bottom: 10px;
-    }
+  #container #imgsend {
+    width: 30px;
+    height: 30px;
+    margin-left: 350px;
+  }
 
-    #container #imgsend {
-        width: 30px;
-        height: 30px;
-        margin-left: 350px;
-    }
+  #container #texto {
+    font-size: 18px;
+    width: 695px;
+    margin-bottom: 14px;
+  }
 
-    #container #texto {
-        font-size: 18px;
-        width: 695px;
-        margin-bottom: 14px;
-    }
-
-    #container .botaoLer, #container .botaoAdd {
-        padding: 10px 28px 10px 28px;
-        font-size: 13px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
-
+  #container .botaoLer,
+  #container .botaoAdd {
+    padding: 10px 28px 10px 28px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
 }
 
+@media (max-width: 1025px) {
+  #container #section-center {
+    max-width: 550px;
+  }
 
-@media(max-width:1025px) {
-    #container #section-center {
-        max-width: 550px;
-    }
+  #container #imagem {
+    width: 250px;
+    height: 280px;
+    margin-right: 20px;
+  }
 
-    #container #imagem {
-        width: 250px;
-        height: 280px;
-        margin-right: 20px;
-    }
+  #container #titulo {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
 
-    #container #titulo {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
+  #container #texto {
+    font-size: 16px;
+    width: 550px;
+    margin-bottom: 14px;
+  }
 
-    #container #texto {
-        font-size: 16px;
-        width: 550px;
-        margin-bottom: 14px;
-    }
+  #container #tags {
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
 
-    #container #tags {
-        font-size: 17px;
-        margin-bottom: 14px;
-    }
+  #container #tags span {
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
 
-    #container #tags span {
-        font-size: 17px;
-        margin-bottom: 14px;
-    }
+  #container #imgsend {
+    width: 28px;
+    height: 28px;
+    margin-left: 300px;
+  }
 
-    #container #imgsend {
-        width: 28px;
-        height: 28px;
-        margin-left: 300px;
-    }
+  #container .botaoLer,
+  #container .botaoAdd {
+    padding: 10px 28px 10px 28px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
 
-    #container .botaoLer, #container .botaoAdd {
-        padding: 10px 28px 10px 28px;
-        font-size: 13px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
+  #container .statitics p {
+    font-size: 21px;
+  }
 
-    #container .statitics p{
-        font-size: 21px;
-    }
-      
-    #container .statitics span{
-        font-size: 25px;
-    }
-
+  #container .statitics span {
+    font-size: 25px;
+  }
 }
 
+@media (max-width: 768px) {
+  #container #section-center {
+    max-width: 400px;
+  }
 
-@media(max-width:768px) {
-    #container #section-center {
-        max-width: 400px;
-    }
+  #container #imagem {
+    width: 190px;
+    height: 210px;
+    margin-right: 20px;
+  }
 
-    #container #imagem {
-        width: 190px;
-        height: 210px;
-        margin-right: 20px;
-    }
+  #container #titulo {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
 
-    #container #titulo {
-        font-size: 24px;
-        margin-bottom: 5px;
-    }
+  #container #texto {
+    font-size: 14px;
+    width: 390px;
+    margin-bottom: 10px;
+  }
 
-    #container #texto {
-        font-size: 14px;
-        width: 390px;
-        margin-bottom: 10px;
-    }
+  #container #tags {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 
-    #container #tags {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
+  #container #tags span {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 
-    #container #tags span {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
+  #container #imgsend {
+    width: 23px;
+    height: 23px;
+    margin-left: 180px;
+  }
 
-    #container #imgsend {
-        width: 23px;
-        height: 23px;
-        margin-left: 180px;
-    }
+  #container .botaoLer,
+  #container .botaoAdd {
+    padding: 7px 25px 7px 25px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
 
-    #container .botaoLer, #container .botaoAdd {
-        padding: 7px 25px 7px 25px;
-        font-size: 13px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-    }
+  #container .statitics p {
+    font-size: 17px;
+  }
 
-    #container .statitics p{
-        font-size: 17px;
-    }
-      
-    #container .statitics span{
-        font-size: 20px;
-    }    
+  #container .statitics span {
+    font-size: 20px;
+  }
 
+  .obra-down table {
+    width: 700px;
+    font-size: 15px;
+  }
 
-
-    .obra-down table {
-        width: 700px;
-        font-size: 15px;
-    }
-
-    .obra-down thead th{
-        font-size: 16px;
-    }
-
+  .obra-down thead th {
+    font-size: 16px;
+  }
 }
 
-@media(max-width:425px) {
-    .obra-up #container {
-        display: flex;
-        flex-direction: column;
-    }
+@media (max-width: 425px) {
+  .obra-up #container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #container #imagem {
-        width: 260px;
-        height: 220px;
-        margin-bottom: 25px;
-    }
+  #container #imagem {
+    width: 260px;
+    height: 220px;
+    margin-bottom: 25px;
+  }
 
-    #container .statitics{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        margin-right: 20px;
-        font-size: 15px;
-    }
+  #container .statitics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size: 15px;
+  }
 
-    #container .statitics p{
-        font-size: 12px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-      
+  #container .statitics p {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-    #container .statitics span{
-        font-size: 14px;
-        margin-bottom: 7px;
-        border-bottom: solid 1px #fff;
+  #container .statitics span {
+    font-size: 14px;
+    margin-bottom: 7px;
+    border-bottom: solid 1px #fff;
+  }
 
-    } 
+  .obra-down table {
+    width: 200px;
+    font-size: 12px;
+  }
 
+  .obra-down thead th {
+    font-size: 13px;
+  }
 
-    .obra-down table {
-        width: 200px;
-        font-size: 12px;
-    }
-
-    .obra-down thead th{
-        font-size: 13px;
-    }
-
-    tbody .verificado img{
-        height: 25px;
-        width: 25px;
-      }
-
+  tbody .verificado img {
+    height: 25px;
+    width: 25px;
+  }
 }
 
+@media (max-width: 375px) {
+  #container #section-center {
+    max-width: 330px;
+  }
 
-@media(max-width:375px) {
-    #container #section-center {
-        max-width: 330px;
-    }
+  .obra-up #container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .obra-up #container {
-        display: flex;
-        flex-direction: column;
-    }
+  #container #imagem {
+    width: 260px;
+    height: 220px;
+    margin-bottom: 25px;
+  }
 
-    #container #imagem {
-        width: 260px;
-        height: 220px;
-        margin-bottom: 25px;
-    }
+  #container #texto {
+    font-size: 14px;
+    width: 330px;
+    margin-bottom: 10px;
+  }
+  #container #imgsend {
+    width: 23px;
+    height: 23px;
+    margin-left: 100px;
+  }
 
-    #container #texto {
-        font-size: 14px;
-        width: 330px;
-        margin-bottom: 10px;
-    }
-    #container #imgsend {
-        width: 23px;
-        height: 23px;
-        margin-left: 100px;
-    }
+  #container .statitics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size: 15px;
+  }
 
-    #container .statitics{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        margin-right: 20px;
-        font-size: 15px;
-    }
+  #container .statitics p {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-    #container .statitics p{
-        font-size: 12px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-      
+  #container .statitics span {
+    font-size: 14px;
+    margin-bottom: 7px;
+    border-bottom: solid 1px #fff;
+  }
 
-    #container .statitics span{
-        font-size: 14px;
-        margin-bottom: 7px;
-        border-bottom: solid 1px #fff;
-        
-    } 
+  .obra-down table {
+    width: 160px;
+    font-size: 11px;
+  }
 
+  .obra-down thead th {
+    font-size: 10px;
+  }
 
-    .obra-down table {
-        width: 160px;
-        font-size: 11px;
-    }
-
-    .obra-down thead th{
-        font-size: 10px;
-    }
-
-    tbody .verificado img{
-        height: 25px;
-        width: 25px;
-      }
-
+  tbody .verificado img {
+    height: 25px;
+    width: 25px;
+  }
 }
 
-@media(max-width:320px) {
-    #container #section-center {
-        max-width: 310px;
-    }
+@media (max-width: 320px) {
+  #container #section-center {
+    max-width: 310px;
+  }
 
-    .obra-up #container {
-        display: flex;
-        flex-direction: column;
-    }
+  .obra-up #container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #container #imagem {
-        width: 260px;
-        height: 220px;
-        margin-bottom: 25px;
-        margin-left: 20px;
-    }
+  #container #imagem {
+    width: 260px;
+    height: 220px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+  }
 
-    #container #titulo {
-        font-size: 22px;
-        margin-left: 2px;
-    }
+  #container #titulo {
+    font-size: 22px;
+    margin-left: 2px;
+  }
 
-    #container #texto {
-        font-size: 13px;
-        width: 305px;
-        margin-bottom: 10px;
-        margin-left: 3px;
-    }
-    #container #imgsend {
-        width: 23px;
-        height: 23px;
-        margin-left: 90px;
-    }
+  #container #texto {
+    font-size: 13px;
+    width: 305px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+  }
+  #container #imgsend {
+    width: 23px;
+    height: 23px;
+    margin-left: 90px;
+  }
 
-    #container .botaoLer, #container .botaoAdd {
-        padding: 5px 23px 5px 23px;
-        font-size: 13px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-    }
+  #container .botaoLer,
+  #container .botaoAdd {
+    padding: 5px 23px 5px 23px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
 
-    #container .statitics{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        margin-right: 20px;
-    }
+  #container .statitics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 20px;
+  }
 
-    #container .statitics p{
-        font-size: 11px;
-        margin-right: 5px;
-        margin-left: 8px;
-    }
-      
+  #container .statitics p {
+    font-size: 11px;
+    margin-right: 5px;
+    margin-left: 8px;
+  }
 
-    #container .statitics span{
-        font-size: 12px;
-        margin-bottom: 10px;
-        border-bottom: solid 1px #fff;
-        
-    } 
+  #container .statitics span {
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #fff;
+  }
 
+  .obra-down table {
+    width: auto;
+    font-size: 9px;
+    margin-left: 8px;
+  }
 
-    .obra-down table {
-        width: auto;
-        font-size: 9px;
-        margin-left: 8px;
-    }
+  .obra-down thead th {
+    font-size: 10px;
+  }
 
-    .obra-down thead th{
-        font-size: 10px;
-    }
-
-    tbody .verificado img{
-        height: 20px;
-        width: 20px;
-      }
-
+  tbody .verificado img {
+    height: 20px;
+    width: 20px;
+  }
 }

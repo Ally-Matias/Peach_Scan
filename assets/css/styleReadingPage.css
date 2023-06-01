@@ -1,0 +1,84 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(#2b2827, #161514);
+}
+
+.heading .heading-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin-right: 25%;
+  margin-bottom: 15px;
+}
+
+#heading-page-manga-title {
+  margin-top: 40px;
+  margin-left: 25%;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+
+.save-and-share {
+  display: flex;
+}
+
+#imgShare {
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#imgShare:hover {
+  transform: scale(1.15);
+  transition: all 0.5s ease;
+}
+
+#imgSave {
+  height: 30px;
+  width: 25px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#imgSave:hover {
+  transform: scale(1.15);
+  transition: all 0.5s ease;
+}
+
+#select-box {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+#select-box:hover {
+  background-color: #2b2827;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 30px;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+}

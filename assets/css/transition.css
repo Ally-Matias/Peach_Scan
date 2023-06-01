@@ -1,11 +1,13 @@
 .saindo {
-    opacity: 0;
-    transform: translateY(-50px); /* move o conteúdo para cima durante a transição */
-    transition: opacity 0.5s, transform 0.5s;
+  opacity: 0;
+  transform: translateY(
+    -50px
+  ); /* move o conteúdo para cima durante a transição */
+  transition: opacity 0.5s, transform 0.5s;
 }
 
 .carregado {
-    opacity: 1;
-    transform: none;
-    transition: opacity 0.5s;
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.5s;
 }

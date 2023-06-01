@@ -1,642 +1,1602 @@
 [
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    },
-    {
-        "name": "Simply dummy",
-        "chapters": "174",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Comédia"],
-        "stars": 3.5
-    },
-    {
-        "name": "Lorem ipsum",
-        "chapters": "189",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.1
-    },
-    {
-        "name": "Dolor sit amet",
-        "chapters": "131",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.2
-    },
-    {
-        "name": "Quisque rhoncus",
-        "chapters": "256",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.5
-    },
-    {
-        "name": "Consectetur adipiscing",
-        "chapters": "230",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.7
-    },
-    {
-        "name": "Duis consequat",
-        "chapters": "410",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 4.9
-    },
-    {
-        "name": "Libero ullamcorper",
-        "chapters": "157",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.4
-    },
-    {
-        "name": "Placerat sit amet",
-        "chapters": "300",
-        "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
-        "href": "#",
-        "category": ["Ação", "Sci-Fi"],
-        "stars": 3.6
-    }
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 0
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 1
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 2
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 3
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 4
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 5
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 6
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 7
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 8
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 9
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 10
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 11
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 12
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 13
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 14
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 15
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 16
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 17
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 18
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 19
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 20
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 21
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 22
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 23
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 24
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 25
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 26
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 27
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 28
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 29
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 30
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 31
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 32
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 33
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 34
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 35
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 36
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 37
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 38
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 39
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 40
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 41
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 42
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 43
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 44
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 45
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 46
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 47
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 48
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 49
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 50
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 51
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 52
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 53
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 54
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 55
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 56
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 57
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 58
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 59
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 60
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 61
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 62
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 63
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 64
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 65
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 66
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 67
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 68
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 69
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 70
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 71
+  },
+  {
+    "name": "Simply dummy",
+    "chapters": "174",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Comédia"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 72
+  },
+  {
+    "name": "Lorem ipsum",
+    "chapters": "189",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.1,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 73
+  },
+  {
+    "name": "Dolor sit amet",
+    "chapters": "131",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.2,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 74
+  },
+  {
+    "name": "Quisque rhoncus",
+    "chapters": "256",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.5,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 75
+  },
+  {
+    "name": "Consectetur adipiscing",
+    "chapters": "230",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.7,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 76
+  },
+  {
+    "name": "Duis consequat",
+    "chapters": "410",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 4.9,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 77
+  },
+  {
+    "name": "Libero ullamcorper",
+    "chapters": "157",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.4,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 78
+  },
+  {
+    "name": "Placerat sit amet",
+    "chapters": "300",
+    "src": "https://momijibooks.pt/wp-content/uploads/2022/09/Im-the-Villainess-So-Im-Taming-the-Final-Boss-Vol.-3-manga-150x225.jpg",
+    "href": "#",
+    "category": ["Ação", "Sci-Fi"],
+    "stars": 3.6,
+    "chapters_src": [
+      [
+        "./mangalist/mangas/cap01/page01.avif"
+      ],
+      [
+        "./mangalist/mangas/cap02/page02.avif"
+      ],
+      [
+        "./mangalist/mangas/cap03/page03.avif"
+      ]
+    ],
+    "Id": 79
+  }
 ]

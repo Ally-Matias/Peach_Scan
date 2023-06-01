@@ -1,99 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Leitura de Mangá</title>
-  <style>
-    body {
-      background-color: #fff;
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    #manga-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    
-    #manga-page {
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 80%;
-      max-width: 800px;
-      height: 80%;
-      max-height: 800px;
-      border: 1px solid #000;
-      box-shadow: 0 0 10px #000;
-    }
-    
-    #prev-page, #next-page {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 2em;
-      font-weight: bold;
-      color: #fff;
-      background-color: rgba(0,0,0,0.5);
-      padding: 10px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    
-    #prev-page:hover, #next-page:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-    
-    #prev-page {
-      left: 0;
-    }
-    
-    #next-page {
-      right: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Peach Scan</title>
+
+    <link rel="icon" type="imagem/png" href="assets/css/img/logo-bar.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleReadingPage.css">
+    <link rel="stylesheet" href="assets/css/responsiveObra.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        #box-reading-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+    </style>
 </head>
+
 <body>
-  <div id="manga-container">
-    <div id="manga-page"></div>
-    <div id="prev-page">&lt;</div>
-    <div id="next-page">&gt;</div>
-  </div>
-  <script>
-    const mangaPage = document.getElementById('manga-page');
-    const prevButton = document.getElementById('prev-page');
-    const nextButton = document.getElementById('next-page');
-    const mangaPages = [
-      'C:\Users\Vinicius\Desktop\things\programacao\Peach_Scan\assets\img',
-      'https://static2.mangalivre.net/avif/l6gTY1jyvLzytti99NdijA/9PjUzKmoLAzA2p0lIMoi1w/m11601335/1036/428041/452348/img_or2303230954_0004.png.avif',
-      'https://static2.mangalivre.net/avif/doVbxWFAuJxC5Mkj0xQAAg/OBTwsMjWlOMIslcSUHnW3Q/m11601336/1036/428041/452348/img_or2303230954_0005.png.avif'
-    ];
-    let currentPageIndex = 0;
-    
-    function updateMangaPage() {
-      mangaPage.style.backgroundImage = `url('${mangaPages[currentPageIndex]}')`;
-    }
-    
-    function goToPrevPage() {
-      if (currentPageIndex > 0) {
-        currentPageIndex--;
-        updateMangaPage();
-      }
-    }
-    
-    function goToNextPage() {
-      if (currentPageIndex < mangaPages.length - 1) {
-        currentPageIndex++;
-        updateMangaPage();
-      }
-    }
-    
-    updateMangaPage();
-    prevButton.addEventListener('click', goToPrevPage);
-    nextButton.addEventListener('click', goToNextPage);
-  </script>
+    <main>
+        <section class="heading">
+            <div>
+                <h2 id="heading-page-manga-title"></h2>
+            </div>
+            <div class="heading-buttons">
+                <div id="button-previous"><button>Anterior</button></div>
+
+                <div id="button-next"><button>Próximo</button></div>
+
+                <div> <select name="Capítulos" id="select-box"></select> </div>
+
+                <img src="assets/img/Compartilhar.png" id="imgShare">
+
+                <img src="assets/img/imgsave.png" id="imgSave">
+            </div>
+        </section>
+    </main>
+    <div id="box-reading-content" class="reading-content">
+    </div>
+    <script src="javascript/page-render.js" type="module"></script>
 </body>
-</html>
