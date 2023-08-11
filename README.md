@@ -1,6 +1,6 @@
 # Projeto Peach Scan
 
-Este projeto representa uma colaboração onde uma equipe de programadores se reuniu para explorar e aprimorar suas habilidades em programação web. Nosso objetivo era criar um espaço online cativante para entusiastas de mangás e aprofundar nosso domínio das tecnologias de front-end.
+Este projeto representa uma colaboração onde uma equipe de programadores se reuniu para explorar e aprimorar suas habilidades em programação web. Nosso objetivo era criar um espaço online cativante para entusiastas de mangás e aprofundar nosso domínio das tecnologias de front-end. Usamos como base uma primeira versão de um site oficial, contando com a autorização do proprietário, para criar esse outro modelo.
 
 ## Sobre o Projeto
 
@@ -33,5 +33,13 @@ Se você gostaria de contribuir para este projeto ou tiver alguma sugestão, sin
 *Nota: Este é um resumo elaborado do projeto. Para informações mais detalhadas, confira os arquivos do projeto neste repositório.*
 
 ---
+
+## Equipe
+
+[Alliquison Matias](https://github.com/Ally-Matias), 
+[Kainan Paiva](https://github.com/kainanps), 
+[Fábio Eduardo](https://github.com/FabioEdu), 
+[Luis Vinicius](https://github.com/coding-vinicius).
+
 
 
